@@ -45,7 +45,7 @@ const observer = new IntersectionObserver(function(entries) {
 
 document.querySelectorAll('section').forEach(function(section) {
   section.style.opacity = '0';
-  section.style.transform = 'translateY(20px)';
+  section.style.transform = 'translateY(5px)';
   section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
   observer.observe(section);
 });
